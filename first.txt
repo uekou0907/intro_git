@@ -1,2 +1,9 @@
 gitの練習をするよ！！
 初めてだからうまくいくかな？
+
+git add
+git commit
+
+git remote add origin https://github.com/uekou0907/intro_git.git
+git branch -M main
+git push -u origin main
