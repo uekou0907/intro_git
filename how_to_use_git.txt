@@ -1,0 +1,24 @@
+git init (ローカルレポジトリの作成)
+
+(githubからコードをとってくる場合)
+git remote add origin https://github.com/uekou0907/リモートレポジトリ名
+git pull origin ブランチ名
+
+(githubに変更を送信するワークフロー)
+git diff (ステージングエリアと今のファイルたちの差分)
+git add ファイル名(ディレクトリの中のすべてのファイルをステージングエリアにaddする場合はファイル名のところを「.」にする)
+git status (gitの最新の状態と今の状態を比較する)
+git diff HEAD (ステージングエリアとコミットの差分)
+git commit -v
+(gitの変更内容を書くためのエディタが開かれる)
+(1行目に変更した内容、3行目に変更した理由を書く)
+git log (commitの内容を保存)
+git log --oneline (一行で表示)
+git log -p ファイル名 (ファイルの差分を表示)
+git log -n 数字 (最近の変更から入力した数字分だけ遡って表示)
+git remote add origin https://github.com/uekou0907/リモートレポジトリ名
+git push origin ブランチ名
+
+
+
+
