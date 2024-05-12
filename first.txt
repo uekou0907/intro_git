@@ -8,3 +8,4 @@ git remote add origin https://github.com/uekou0907/intro_git.git
 git branch -M main
 git push -u origin main
 git rm:削除したファイルをステージングエリアにaddする
+git status
