@@ -17,7 +17,8 @@ git log --oneline (一行で表示)
 git log -p ファイル名 (ファイルの差分を表示)
 git log -n 数字 (最近の変更から入力した数字分だけ遡って表示)
 git remote add origin https://github.com/uekou0907/リモートレポジトリ名
-git push origin ブランチ名
+git branch -M ブランチ名
+git push -u  origin ブランチ名
 
 
 
